@@ -1,0 +1,3 @@
+tar -xvf /路径/bookget-1.2.2.macOS.tar.bz2
+cd bookget-1.2.2.macOS
+sudo cp bookget /usr/local/bin/
