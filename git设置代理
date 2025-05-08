@@ -1,0 +1,28 @@
+查看设置：
+git config --global -l
+git config --list
+
+socks5设置：
+git config --global http.proxy socks5://127.0.0.1:7890
+git config --global https.proxy socks5://127.0.0.1:7890
+
+特定网站socks5设置：
+git config --global http.https://github.com.proxy socks5://127.0.0.1:7890
+git config --global https.https://github.com.proxy socks5://127.0.0.1:7890
+
+取消特定网站设置
+git config --global --unset http.https://github.com.proxy
+git config --global --unset https.https://github.com.proxy
+
+取消设置
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+
+localhost设置：
+git config --global http.proxy http://localhost:7890
+git config --global https.proxy https://localhost:7890
+
+取消所有设置
+git config --global --unset-all http.proxy
+git config --global --unset-all https.proxy
+
