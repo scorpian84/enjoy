@@ -1,0 +1,24 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
+{
+	"font_size": 16,
+	"draw_white_space": "all",
+	"color_scheme": "Breakers.sublime-color-scheme",
+"open_files_in_new_window": "always",
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"index_files": true,
+	    "preview_on_click": false,// 默认在一个新的tab 打开文件
+    "open_files_in_new_window": false,// 双击文件 在tab里打开 不是window
+	"highlight_line": true,// 当前行高亮
+"show_encoding": true,// 窗口右下角显示打开文件的编码
+    "show_encoding": true,
+    "show_line_endings": true,
+    "show_full_path": true, //显示全路径
+    "draw_unicode_white_space": "punctuation", //仅把定义为标点符号的 Unicode 空白字符（如不换行空格 NBSP）绘制出来。
+    //"draw_unicode_white_space": "all", //绘制所有非 ASCII 的空格字符。//
+"close_find_after_replace_all": false, //点击 Replace All（全部替换）后搜索替换框保持打开状态
+
+}
